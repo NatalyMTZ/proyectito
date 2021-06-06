@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+html{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin:;
+}
+
+.logo{
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.imglogo{
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    overflow:hidden;
+    background-color: white;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+}
+
+nav ul li a{
+    display: block;
+}
+
+.nav_links{
+    margin-right: 40px;
+    display: flex;
+    list-style: none;
+    background-color: white;
+    float: ;
+}
+
+li, a{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    background-color: white;
+}
+
+.nav_links li a:hover{
+    color: #EC061D;
+    background-color: white;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    background-color: #d7d9d8;
+    border-radius: 6px;
+    border: 2px solid #d7d9d8;
+}
+
+.boton:hover{
+    color: black;
+    background-color: #BDBEBF;
+    border: 2px solid #BDBEBF;
+}
+
+.titulo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 60px;
+    color: #ec061d;
+    text-decoration: none;
+}
+
+.subtitulo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 35px;
+    color: #8B8B8C;
+    text-decoration: none;
+}
+
+.tabla{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.rcp{
+    width: 400px;
+    height: 400px;
+    display:block;
+    margin-left: 9rem;
+}
+
+hr{
+    color: #d7d9d8;
+}
+
+.acerca{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 40px;
+    color: #8b8b8c;
+    text-decoration: none;
+}
+
+.parrafo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.parte1{
+    width: 650px;
+    padding-bottom: 11rem;
+}
+
+.lista2{
+    list-style: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+i{
+    color: #EC061D;
+    display: inline-block;
+}
+
+.ct{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 30px;
+    color: #8b8b8c;
+    text-decoration: none;
+}
+
+.separacion{
+    background-color: #F2F2F2;
+}
+
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.caja{
+    background: white;
+    height: 170px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: .5rem;
+    border-color: #8B8B9D;
+}
+
+.tabla{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.decaja{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.pie{
+    background-color:white;
+    height: 30px;
+    width:auto;
+}
